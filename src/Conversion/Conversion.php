@@ -272,6 +272,6 @@ class Conversion
 
         $extension = $this->getResultExtension($fileExtension) ?: $fileExtension;
 
-        return "{$fileName}-{$this->getName()}.{$extension}";
+        return "{$this->getName()}.{$extension}";
     }
 }
